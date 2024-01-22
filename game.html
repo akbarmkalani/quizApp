@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Game Play developed by Akbar Mohammadi</title>
+   <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/game.css">
+</head>
+<body>
+     
+     <main class="gameContainer">
+          <span id="loader"></span>
+           <h3 id="erorr">Something went wrong | pleas try again </h3>
+          <div id="container">
+               <section class="header ">
+                    <div><p>Question No:</p>
+                      <span id="question-number">1</span>
+                    </div>
+                    <div><p>Scores:</p>
+                       <span id="scores">0</span>
+                   </div>
+                   
+               </section id="question-box" class="question-box"><section >
+                      <h3 class="questionText" id="question-text">Question text</h3> 
+                      <button class="answer-text">1</button>             
+                      <button class="answer-text">2</button>             
+                      <button class="answer-text">3</button>             
+                      <button class="answer-text">4</button>             
+               </section>    
+                <button id="finish-btn"> Finish</button>                              
+                <button id="next-btn"> Next</button>                              
+          </div>
+     </main>
+
+      <script src="javaScript/game.js" type="module"></script>
+       <script src="javaScript/helper.js" type="module"></script>
+</body>
+</html>
